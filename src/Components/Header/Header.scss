@@ -1,0 +1,36 @@
+.NavBar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  position: sticky;
+  top: 0px;
+}
+
+.NavBar-title {
+  margin-left: 5%;
+}
+
+.title {
+  font-size: 28px;
+  color: black;
+}
+
+a {
+  color: black;
+  margin-right: 40px;
+  text-decoration: none;
+  transition: transform 2s ease-in-out;
+  padding-bottom:20px ;
+}
+
+a:hover {
+  font-size: 18px;
+  transform: rotate(360deg);
+  color: orange;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+
+}
+
